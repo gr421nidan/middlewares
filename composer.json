@@ -1,0 +1,17 @@
+{
+    "name": "gr421nidan/middlewares",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "gr421nidan/collect": "dev-master"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\Auth\\": "pop-it-mvc/core/Src/Auth",
+            "Src\\": "pop-it-mvc/core/Src"
+        }
+    }
+}
