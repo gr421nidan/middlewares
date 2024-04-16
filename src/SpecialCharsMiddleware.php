@@ -1,5 +1,7 @@
 <?php
 
+namespace Middlewares;
+
 use Src\Request;
 use function Collect\collection;
 
