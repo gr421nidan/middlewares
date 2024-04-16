@@ -6,15 +6,15 @@
     "require": {
         "php": "^7.4 | ^8.0",
         "gr421nidan/collect": "dev-master"
-
     },
     "autoload": {
         "psr-4": {
             "Src\\Auth\\": "core/Src/Auth/",
             "Src\\": "core/Src/",
-            "Middlewares\\": "src/",
-            "Collect\\": "src/"
-
+            "Middlewares\\": "src/"
         }
+    },
+    "require-dev": {
+        "gr421nidan/collect": "dev-master"
     }
 }
