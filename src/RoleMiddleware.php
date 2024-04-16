@@ -11,7 +11,7 @@ class RoleMiddleware
     {
         //Если пользователь не админ, то редирект на главную страницу сотрудника
         if (!Auth::checkRole()) {
-            \Middlewares\app()->route->redirect('/hello');
+            app()->route->redirect('/hello');
         }
     }
 }
