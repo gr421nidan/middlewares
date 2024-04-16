@@ -4,13 +4,19 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4 | ^8.0"
+        "php": "^7.4 | ^8.0",
+        "gr421nidan/collect": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Src\\Auth\\": "core/Src/Auth/",
             "Src\\": "core/Src/",
-            "Middlewares\\": "src/"
+            "Middlewares\\": "src/",
+            "Collect\\": "src/"
         }
-    }
+    },
+    "files": [
+        "src/helpers.php"
+    ]
+
 }
